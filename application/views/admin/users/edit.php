@@ -11,9 +11,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<?=form_open(current_url());?>
 						<fieldset>
 							<div class="form-group">
-								<input class="form-control" name="userID" type="hidden" required value="<?=$editUserInfo['userID'];?>" />
-							</div>
-							<div class="form-group">
 								<input class="form-control" placeholder="First Name" name="userFirstName" type="text" required autofocus value="<?=$editUserInfo['userFirstName'];?>" data-toggle="tooltip" data-placement="left" title="User First Name" />
 							</div>
 							<div class="form-group">
