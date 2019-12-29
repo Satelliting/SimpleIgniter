@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					# Load in The EMAIL Library
 					$this->load->library('email');
 
-					$this->email->from('no-reply@thriftworks.com', 'The Admin Team');
+					$this->email->from('no-reply@simpleigniter.com', 'The Admin Team');
 					$this->email->to($data['emailInfo']['userEmail']);
 					$this->email->subject($_POST['emailSubject']);
 					$this->email->message($_POST['emailBody']);
