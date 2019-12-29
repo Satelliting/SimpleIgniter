@@ -1,8 +1,6 @@
 ![SimpleIgniter Logo](https://i.imgur.com/aEcPG6H.png)
 
-###################
-What is SimpleIgniter
-###################
+# What is SimpleIgniter
 
 SimpleIgniter is, simply put, CodeIgniter 3 with a user system incorporated. It has
 a user system with the ability to  register, login, and recover account via email.
@@ -14,9 +12,7 @@ and Administrators (only implements features for Administrators), a ban/deactiva
 of accounts system, an an active checker to see if accounts are banned/deactivated
 while they are online.
 
-*******************
-What is Codeigniter
-*******************
+## What is Codeigniter
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
@@ -26,16 +22,11 @@ interface and logical structure to access these libraries. CodeIgniter lets
 you creatively focus on your project by minimizing the amount of code needed
 for a given task.
 
-**************************
-Changelog and New Features
-**************************
+## Changelog and New Features
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+You can find a list of all changes at https://github.com/Satelliting/SimpleIgniter.
 
-*******************
-Server Requirements
-*******************
+## Server Requirements
 
 PHP version 7.1.0 or newer is recommended.
 
@@ -47,33 +38,24 @@ IF YOU WISH TO RUN ON OLDER VERSION, YOU MUST CHANGE THE ENCRYPTION SETTINGS.
 The MY_Encryption library file needs to be changed from sha3-512 to a different version
 supported on older versions.
 
-************
-Installation
-************
+## Installation
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
+Please see the [installation section](https://codeigniter.com/user_guide/installation/index.html)
 of the CodeIgniter User Guide.
 
 To email users from the admin system, you also need to setup the SMTP settings in the
 config/email file. You are free to change them from SMTP to something else, but I use
 SMTP which is why its setup for it. 
 
-*********
-Resources
-*********
+## Resources
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+- [User Guide](https://codeigniter.com/docs)
+- [Language File Translations](https://github.com/bcit-ci/codeigniter3-translations)
+- [Community Forums](http://forum.codeigniter.com/)
+- [Community Wiki](https://github.com/bcit-ci/CodeIgniter/wiki)
+- [Community Slack Channel](https://codeigniterchat.slack.com)
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
+## Acknowledgement
 
 I would like to thank the CodeIgniter team for creating and maintaining an incredible
 product and solution for PHP developers and learners. It has taught me a lot and has been
